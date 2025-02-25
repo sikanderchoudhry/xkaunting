@@ -1,17 +1,35 @@
 {
-    "name": "akaunting/akaunting",
-    "description": "Online accounting software built with Laravel",
-    "homepage": "https://akaunting.com",
+    "name": "sikanderchoudhry/xkaunting",
+    "description": "Xkaunting - A GPL-licensed fork of Akaunting 3.0.17 built with laravel, providing open-source accounting and business solutions.",
+    "homepage": "https://xkaunting.com",
     "keywords": [
         "laravel",
         "accounting",
         "invoice",
         "expenses",
         "software",
-        "online"
+        "online",
+        "finance",
+        "assets",
+        "hr",
+        "crm",
+        "project",
+        "fleet"
     ],
-    "license": "BUSL-1.1",
+    "license": "GPL-3.0-or-later",
     "type": "project",
+    "authors": [
+        {
+            "name": "Sikander Shahzad",
+            "email": "support@xkaunting.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/sikanderchoudhry/xkaunting/issues",
+        "source": "https://github.com/sikanderchoudhry/xkaunting",
+        "email": "support@xkaunting.com"
+    },
     "require": {
         "php": "^8.1",
         "ext-bcmath": "*",
@@ -92,13 +110,19 @@
             "dont-discover": []
         },
         "installer-paths": {
-            "modules/OfflinePayments": ["akaunting/module-offline-payments"],
-            "modules/PaypalStandard": ["akaunting/module-paypal-standard"]
+            "modules/OfflinePayments": [
+                "akaunting/module-offline-payments"
+            ],
+            "modules/PaypalStandard": [
+                "akaunting/module-paypal-standard"
+            ]
         }
     },
     "autoload": {
         "psr-4": {
-            "App\\": ["app/"],
+            "App\\": [
+                "app/"
+            ],
             "Akaunting\\Module\\Commands\\": "overrides/akaunting/laravel-module/Commands/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeds\\": "database/seeds/",
