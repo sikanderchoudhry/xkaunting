@@ -7,17 +7,17 @@ Akaunting changed its license from GPL to BSL in version 3.1.0. Xkaunting is bui
 
 ## ✨ Key Features
 
--   **Accounting Management:** General Ledger, Chart of Accounts, Invoicing, and Billing.
--   **Asset Management:** Record and track your business assets seamlessly.
--   **Customizable Modules:** Extend functionality to meet your unique business needs.
--   **Multi-Currency & Multi-Language Support:** Suitable for global businesses.
+- **Accounting Management:** General Ledger, Chart of Accounts, Invoicing, and Billing.
+- **Asset Management:** Record and track your business assets seamlessly.
+- **Customizable Modules:** Extend functionality to meet your unique business needs.
+- **Multi-Currency & Multi-Language Support:** Suitable for global businesses.
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
--   **Server Requirements:** PHP >= 8.0, MySQL >= 5.7, Composer, Node.js (optional for development)
--   **Installation:**
+- **Server Requirements:** PHP >= 8.0, MySQL >= 5.7, Composer, Node.js (optional for development)
+- **Installation:**
 
 ```bash
 git clone https://github.com/sikanderchoudhry/Xkaunting.git
@@ -27,6 +27,10 @@ composer install
 php artisan migrate --seed
 php artisan serve
 ```
+
+## Demo Site
+
+A working demo is available for testing at demo.xkaunting.com
 
 ## 🤝 Contributing
 
