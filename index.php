@@ -1,10 +1,10 @@
 <?php
 
 /**
- * @package     Akaunting
+ * @package     Xkaunting
  * @copyright   2017-2023 Akaunting. All rights reserved.
  * @license     BSL; see LICENSE.txt
- * @link        https://akaunting.com
+ * @link        https://xakaunting.com
  */
 
 define('LARAVEL_START', microtime(true));

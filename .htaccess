@@ -24,6 +24,9 @@
         </IfModule>
     </FilesMatch>
 
+    # Allow access to public storage, but prevent access to other storage directories
+    RewriteCond %{REQUEST_URI} !^/public/storage/
+
     # Prevent Direct Access To Protected Folders
     RewriteRule ^(app|bootstrap|config|database|overrides|resources|routes|storage|tests)/(.*) / [L,R=301]
 
