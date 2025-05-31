@@ -2,24 +2,24 @@
 
 return [
 
-    'name'      =>  'Akaunting',
+    'name'      =>  'Xkaunting',
 
-    'code'      =>  'Speed',
+    'code'      =>  'Perserverance',
 
     'major'     =>  '3',
 
     'minor'     =>  '1',
 
-    'patch'     =>  '15',
+    'patch'     =>  '17',
 
     'build'     =>  '',
 
     'status'    =>  'Stable',
 
-    'date'      =>  '14-February-2025',
+    'date'      =>  '31-May-2025',
 
     'time'      =>  '10:00',
 
-    'zone'      =>  'GMT +3',
+    'zone'      =>  'GMT +5',
 
 ];
