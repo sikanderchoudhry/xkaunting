@@ -109,11 +109,12 @@ class ShowInAdmin
             $menu->route('reports.index', $title, [], 60, ['icon' => 'donut_small']);
         }
 
+        // Disabled Apps Menu Item
         // Apps
-        $title = trim(trans_choice('general.modules', 2));
-        if ($this->canAccessMenuItem($title, 'read-modules-home')) {
-            $active = (Str::contains(Route::currentRouteName(), 'apps')) ? true : false;
-            $menu->route('apps.home.index', $title, [], 80, ['icon' => 'rocket_launch', 'active' => $active]);
-        }
+        // $title = trim(trans_choice('general.modules', 2));
+        // if ($this->canAccessMenuItem($title, 'read-modules-home')) {
+        //    $active = (Str::contains(Route::currentRouteName(), 'apps')) ? true : false;
+        //    $menu->route('apps.home.index', $title, [], 80, ['icon' => 'rocket_launch', 'active' => $active]);
+        // }
     }
 }
